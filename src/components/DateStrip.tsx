@@ -73,7 +73,7 @@ const DateStrip = () => {
         contentContainerStyle={styles.listContent}
         getItemLayout={(_, index) => ({
           length: 56,
-          offset: 56 * index,
+          offset: 37 * index,
           index,
         })}
         initialScrollIndex={allDates.findIndex((d) => d.id === selectedId)}
