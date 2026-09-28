@@ -1,7 +1,7 @@
-import SplashIcon from "@/assets/splashIcon.svg";
 import { router } from "expo-router";
 import { useEffect } from "react";
 import { StyleSheet, View } from "react-native";
+import SplashIcon from "@/assets/icons/splashIcon.svg";
 
 export default function Index() {
   useEffect(() => {
